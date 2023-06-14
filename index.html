@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">   
+    <style>
+      .parent{
+          display: flex;
+          justify-content: center;
+          margin-top: 50px;
+
+      }
+      .child{
+          width: 600px;
+          height: 720px;
+          background-color: rgb(255, 255, 255);
+          padding: 25px;
+          font-family: sans-serif;
+          border-style: solid;
+          border-width: 1px;
+          border-color: lightgray;
+          text-align: center;
+      }
+      h3{
+          font-weight: bold;
+          padding: 10px;
+          text-align: center;
+      }
+      .btn1{
+        width: 150px;
+        background-color: lightblue;
+        color: black;
+        border-style: none;
+      }
+      .container1{
+        background-color: lightcyan;
+    }
+    h5{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .card{
+        margin: 0 auto;
+        margin-bottom: 100px; 
+        background-color: lightcyan;
+        border-style: none;
+    }
+      .center{
+  margin-left: auto;
+  margin-right: auto;
+}
+.container2 {
+        text-align: center;
+        display: block;
+      }
+      footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+   
+
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+  
+.pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+   </style>
+  </head>
+<body>
+ 
+    <header style="position: fixed; width: 100%; z-index: 1;">
+        <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+
+            <nav class="navbar navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                  <img src="Logo.png" width="100" height="60" alt="logo">
+                </a>
+              </nav> 
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                  <a class="nav-link" href="#carouselExampleControls" >Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Mentors">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section2">Contact </a>
+                  </li>
+                 
+
+                </div>
+              </nav>
+            </nav>    
+      <h1 text="bold" text-color="black" style="text-align: center;">My Personal Website</h1>
+    </header>
+    <br>
+    <br>
+    <br>
+    
+    <section style="padding-top: 5.5em; ">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="cover.png">
+          </div>
+         
+        <br>
+<div>
+              <h2 style="text-align:center;">ABOUT ME</h2>
+         
+              <center>
+              <img src="pic.jpg" alt="Profile Picture" width="200" height="200">
+              <p>
+                Hello! My name is Christin Varghese Mathew.<br>
+                B-tech CSE Student @ Colllege of Engineering,Aranmula.<br>
+                I am a passionate web developer with expertise in HTML, CSS, and JavaScript.<br>
+                I love building interactive and user-friendly websites that provide a great user experience.<br>
+             
+              </p>
+            </center>
+    </section>
+    <section>
+      <div class="container" id="section2" >
+        <form>
+            <div class="parent" >
+                <div class="child">
+                   <h3>Contact:</h3> 
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Name</label>
+                        <input type="text" class="form-control" >
+                      </div>
+                      <div class="form-group">
+                        <label for="formGroupExampleInput2">Mobile number</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2">
+                      </div>
+                      <div class="form-group">
+                        <label for="formGroupExampleInput2">Email address</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2">
+                      </div>
+                      <div class="form-group">
+                        <label for="formGroupExampleInput2">Institution name</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2">
+                      </div>
+                      
+                      <br>
+                    <button type="submit" style="color:blue" class="btn1 btn-primary my-1">Submit</button>
+                </div>
+            </div>
+          </form> 
+                     
+               
+    </section>
+    <section>
+      <div class="container">
+      <div class="container1" id="Mentors" style="margin: 0;" ><h5>Education</h5>
+          <div class="row"> 
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                  <div class="card" style="width: 18rem;">
+                      <img class="card-img-top" src="ebenezer.jpeg" alt="Card image cap">
+                      <div class="card-body">
+                        <p class="card-text">Completed 7th standard At Ebenezer English Medium School ,kallissery.</p>
+                      </div>
+                  </div> 
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                  <div class="card" style="width: 18rem;">
+                      <img class="card-img-top" src="mhss.jpeg" alt="Card image cap">
+                      <div class="card-body">
+                        <p class="card-text">Completed +2 At Metropolitian Higher Secondary School,Puthencavu.</p>
+                      </div>
+                  </div>
+              </div>
+             
+          </div> 
+      </div>
+      <div class="container">
+      </div>
+      </div>
+  </div>
+</section>
+<br>
+<br>
+<section style="align-items: center;">
+<h1 style="text-align:center">Know More:</h1>
+
+<section id="contact">
+ 
+  <div class="contact-info" >
+    <h3 style="text-align: left;text-decoration: solid;">Email: christinvmathew10@gmail.com</h3>
+    <h3 style="text-align: left;text-decoration: solid;">Phone: +918547881448</h3>
+  </div>
+</section>
+<footer class="bg-info">
+  <div class="container">
+<div class="container2">
+  <div class="row"> 
+  <div class="col-md-12">
+<img src="footer.png" style="width: 20%;"  >
+  </div>
+</div>
+  </div>
+
+</div>
+</footer>
+
+
+<br>
+<footer>
+  <p>&copy;  Personal Website. All rights reserved.</p>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
+</body>
+</html>
